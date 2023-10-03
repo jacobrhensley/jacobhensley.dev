@@ -1,0 +1,100 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #444;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #222;
+}
+
+@media (min-width: 768px) {
+html {
+  font-size: 16px;
+}
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: black;
+  font-family: 'Quattrocento', serif;
+  font-weight: light;
+  color: lightgray;
+  letter-spacing: 0.15rem;
+}
+
+.jumbotron {
+  color: rgb(197, 196, 196);
+  height: 80vh;
+  background-image: radial-gradient( rgba(0,0,0,0.5), black), url('./img/header.JPG');
+  background-position: top;
+  background-size: cover;
+  text-shadow: 2px 2px 5px black;
+}
+
+.title-text {
+  letter-spacing: 0.75rem;
+  text-transform: uppercase !important;
+}
+
+/* HEADER */
+
+a.navbar-brand {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a {
+  color: #0077cc;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px;
+}

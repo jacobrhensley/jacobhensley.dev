@@ -31,7 +31,7 @@ function About() {
         <p>
           I am{" "}
           <ReactTyped
-          strings={["a Dad", "a Husband", "a Software Engineer", "a Worship Drummer", "a Camping Enthusiast", "a Gameboy Nerd", "an AV Dweeb", "a curious mind"]}
+          strings={["a Dad", "a Husband", "a Software Engineer", "a Worship Drummer", "a Camping Enthusiast", "a Gameboy Nerd", "an AV Dweeb"]}
           typeSpeed={100}
           loop
           backSpeed={20}

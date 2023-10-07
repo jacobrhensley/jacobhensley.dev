@@ -40,10 +40,16 @@ body {
 .jumbotron {
   color: rgb(197, 196, 196);
   height: 80vh;
-  background-image: radial-gradient( rgba(0,0,0,0.5), black), url('./img/header.JPG');
+  background-image: radial-gradient(rgba(0,0,0,0.5), black), url('./img/header.JPG');
   background-position: top;
   background-size: cover;
   text-shadow: 2px 2px 5px black;
+}
+
+.professionalExp {
+  background-image: linear-gradient(black, #8b737385), url('./img/redrock.JPG');
+  background-position: center;
+  background-size: cover;
 }
 
 .title-text {

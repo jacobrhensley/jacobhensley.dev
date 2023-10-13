@@ -7,6 +7,7 @@ import css from './img/css.png'
 import js from './img/js.png'
 import cs from './img/cs.png'
 import netmvc from './img/netmvc.png'
+import react from './img/react.png'
 import ReactTyped from "react-typed";
 
 function Title() {
@@ -31,7 +32,7 @@ function About() {
         <h2 className='display-4'>A little about me</h2>
       </div>
       <div className='col-md-5 col-12 d-flex flex-row flex-column justify-content-center align-items-center'>
-        <img className='rounded-5' width={250} height={250} src={mePhoto}/>
+        <img alt='me_drums' className='rounded-5' width={250} height={250} src={mePhoto}/>
       </div>
       <div className='col-md-5 col-12 d-flex flex-column justify-content-center ps-md-5 pt-5'>
         <div className='text-center text-md-start'>
@@ -60,18 +61,19 @@ function ProfessionalExperience() {
         <div className='col-12 text-center mb-5border'>
           <h2 className='display-6'>Technical Experience</h2>
         </div>
-        <img className='mx-5 my-2' height={75} src={codeup}/>
-        <img className='mx-5 my-2' height={75} src={nirvc}/>
+        <img alt='codeup_logo' className='logo mx-5 my-2' src={codeup}/>
+        <img alt='nirvc_logo' className='logo mx-5 my-2' src={nirvc}/>
       </div>
       <div className='d-flex flex-row justify-content-center flex-wrap col-md-6 py-5 px-md-5'>
         <div className='col-12 text-center mb-5border'>
           <h2 className='display-6'>Technologies</h2>
         </div>
-        <img className='mx-5 my-2' height={75} src={html}/>
-        <img className='mx-5 my-2' height={75} src={css}/>
-        <img className='mx-5 my-2' height={75} src={js}/>
-        <img className='mx-5 my-2' height={75} src={cs}/>
-        <img className='mx-5 my-2' height={75} src={netmvc}/>
+        <img alt='html_logo' className='logo mx-5 my-2' src={html}/>
+        <img alt='css_logo' className='logo mx-5 my-2' src={css}/>
+        <img alt='js_logo' className='logo mx-5 my-2' src={js}/>
+        <img alt='cs_logo' className='logo mx-5 my-2' src={cs}/>
+        <img alt='netmvc_logo' className='logo mx-5 my-2' src={netmvc}/>
+        <img alt='netmvc_logo' className='logo mx-5 my-2' src={react}/>
       </div>
     </div>
   )

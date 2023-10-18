@@ -37,14 +37,14 @@ body {
 .jumbotron {
   color: rgb(197, 196, 196);
   height: 80vh;
-  background-image: radial-gradient(rgba(0,0,0,0.5), black), url('../img/header.JPG');
+  background-image: radial-gradient(rgba(0, 0, 0, 0.25), black), url('../img/header.JPG');
   background-position: top;
   background-size: cover;
   text-shadow: 2px 2px 5px black;
 }
 
 .professionalExp {
-  background-image: linear-gradient(black, rgba(224, 221, 221, 0.103)), url('../img/redrock.JPG');
+  background-image: linear-gradient(black, rgba(224, 221, 221, 0.100)), url('../img/redrock.JPG');
   background-position: center;
   background-size: cover;
 }
@@ -63,5 +63,5 @@ body {
   justify-content: center;
   align-items: center;
   min-width: 190px;
-  background: radial-gradient(rgba(224, 221, 221, 0.4), rgba(224, 221, 221, 0.001));
+  background: radial-gradient(rgba(224, 221, 221, 0.5), rgba(224, 221, 221, 0.001));
 }
